@@ -148,7 +148,7 @@ export default function HomePage() {
               <p className="text-sm text-gray-500 dark:text-gray-500">
                 eris debate. focused practice for better debates.
               </p>
-              <nav className="flex space-x-8">
+              <nav className="flex flex-wrap justify-center md:justify-end gap-x-8 gap-y-2">
                 <a
                   href="https://www.instagram.com/erisdebate/"
                   target="_blank"
@@ -175,6 +175,12 @@ export default function HomePage() {
                 >
                   terms
                 </Link>
+                <a
+                  href="mailto:sachin@erisdebate.com"
+                  className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-gray-100"
+                >
+                  contact
+                </a>
               </nav>
             </div>
           </div>

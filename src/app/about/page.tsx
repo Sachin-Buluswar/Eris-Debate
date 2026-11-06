@@ -27,7 +27,7 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-primary-500 mb-1">sachin buluswar</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                    co-founder • horace mann school, class of 2026
+                    co-founder &amp; ceo • horace mann school, class of 2026
                   </p>
                 </div>
                 <p className="leading-relaxed">
@@ -140,6 +140,20 @@ export default function AboutPage() {
               we take your privacy seriously. all debate sessions are private, your data is
               encrypted, and we use row-level security to ensure only you can access your practice
               history and feedback.
+            </p>
+          </section>
+
+          <section className="space-y-6">
+            <h2 className="text-gray-900 dark:text-gray-100">contact</h2>
+            <p>
+              questions, partnerships, or feedback? reach us at{' '}
+              <a
+                href="mailto:sachin@erisdebate.com"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+              >
+                sachin@erisdebate.com
+              </a>
+              .
             </p>
           </section>
 
